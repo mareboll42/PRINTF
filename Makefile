@@ -12,7 +12,7 @@
 
 NAME = libftprintf.a  
 HEADER = libft.h          
-SRC = printf.c ft_putchar.c ft_putstr.c ft_putnbr.c
+SRC = printf.c ft_putchar.c
 
 OBJ = $(SRC:.c=.o)
 
