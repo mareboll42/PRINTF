@@ -19,11 +19,11 @@
 # include <stdlib.h>
 # include <stdarg.h>
 
-int ft_printf(char const *, ...);
-int ft_putchar(int c);
-int ft_putstr(char *s);
-int ft_putnbr(int n);
-int ft_puthex(unsigned int n, int uppercase);
-int ft_put_unsigned(unsigned int n);
+int	ft_printf(char const *str, ...);
+int	ft_putchar(int c);
+int	ft_putstr(char *s);
+int	ft_putnbr(int n);
+int	ft_puthex(unsigned long n, int uppercase);
+int	ft_put_unsigned(unsigned int n);
 
 #endif
